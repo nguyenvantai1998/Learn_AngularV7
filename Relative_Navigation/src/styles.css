@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+
+ul{
+    list-style-type: none;
+}
+app-department-list h3{
+    color:red;
+    font-size:3em;
+}
+.items li{
+    font-size:2em;
+    line-height: 1.5em;
+}
+app-department-detail a{
+    color: orange;
+    font-size: 20px;
+    margin-left:2em;
+}
+.selected{
+    background: green;
+    color:white;
+}

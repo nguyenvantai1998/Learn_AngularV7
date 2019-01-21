@@ -1,0 +1,35 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Routing and Navigation
+  </h1>
+</div>
+
+<!--8 Cách 1 cơ bản -->
+<!-- <nav>
+  <a routerLink="/departments">Departments</a>
+  <a routerLink="/employees">Employees</a>
+</nav> -->
+
+<!-- 8 Cách 2 css theo angular-->
+<!-- <nav>
+  <a routerLink="/departments" routerLinkActive="active">Departments</a>
+  <a routerLink="/employees" routerLinkActive="active">Employees</a>
+</nav> -->
+
+<!-- 8 Cách 3 bootstrap-->
+<nav class="navbar navbar-inverse">
+  <ul class="nav navbar-nav">
+    <li class="active">
+      <a routerLink="/departments">Departments</a>
+    </li>
+    <li>
+      <a routerLink="/employees">Employees</a>
+    </li>
+  </ul>
+</nav>
+
+
+<!-- 7 gọi thẻ module-->
+<router-outlet></router-outlet>
+
